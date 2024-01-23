@@ -1,0 +1,336 @@
+/* SIGNUP CSS */
+
+.signup-cont {
+    width: 800px;
+    height: fit-content;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 50px;
+    display: flex;
+}
+
+.signup-img-cont {
+    width: 400px;
+    height: 400px;
+}
+
+.profile-image {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}
+
+.signup-input {
+    width: 100%;
+    padding: 13px 25px 5px 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+#error {
+    padding-left: 50px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: red;
+}
+
+.signup-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+}
+
+
+/* LOGIN CSS */
+
+
+.login-cont {
+    width: 900px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.img-cont {
+    padding: 30px;
+    width: 400px;
+    height: 500px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.form-cont {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 40px 10px 10px;
+}
+
+.login-btns {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 110, 255);
+}
+
+
+/* UPDATE CSS */
+
+.edit-cont {
+    border: 1px solid lightgray;
+    width: 400px;
+    height: fit-content;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.update-user {
+    text-align: center;
+    width: 250px;
+    margin: auto;
+}
+
+.update-user>label {
+    font-size: 20px;
+}
+
+.update-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    width: 190px;
+    margin: auto;
+    padding: 10px 10px 4px 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    text-align: center;
+}
+
+.update-user>h4 {
+    font-size: 20px;
+}
+
+
+
+/* //ADMIN FORM CSS */
+
+.admin-cont {
+    width: 500px;
+    height: fit-content;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}
+
+
+.admin-form>h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+/* NAVBAR CSS */
+
+
+.nav-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 50px 10px 50px;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.profile-cont {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logout-btn {
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(0, 110, 255);
+    color: white;
+}
+
+
+/* HOME CSS */
+
+.home-cont {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-userComp {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 30px
+}
+
+.profile-btn {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: green;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.delete-btn {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: red;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+/* USERCOMP IMAGE */
+
+.userComp-cont {
+    width: 300px;
+    height: fit-content;
+    border: 1px solid lightgray;
+    padding: 30px 10px 10px 0px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.userData {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userComp-img {
+    width: 160px;
+    height: 160px;
+    /* border: 1px solid red; */
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.user-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/* PROFILE PAGE */
+
+
+.profilePage-cont {
+    width: 300px;
+    border: 1px solid lightblue;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.profilePage-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilePage-update {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto;
+}
+
+.profilePage-img {
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid red; */
+    border: 2px solid blue;
+    border-radius: 50%;
+}
